@@ -1,5 +1,15 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
+:root{
+    --shade-1: #F9F871;
+    --shade-2: #FFC75F;
+    --shade-3: #FF9671;
+    --shade-4: #FF6F91;
+    --shade-5: #D65DB1;
+    --shade-6: #845EC2;
+    --white: #FFFFFF;
+}
+
 html, body { 
     height: 100%; 
 }
@@ -7,4 +17,23 @@ html, body {
 body { 
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background: linear-gradient(45deg, var(--shade-1), var(--shade-5));
+}
+
+//overrides
+.mat-drawer-container{
+    background-color: transparent !important;
+}
+
+.mat-toolbar.mat-primary{
+    background-color: transparent !important;
+    color: black;
+}
+
+.mat-drawer{
+    background-color: white !important;
+}
+
+.mat-drawer-backdrop.mat-drawer-shown{
+    background-color: transparent !important;
 }

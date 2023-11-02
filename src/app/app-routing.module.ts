@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { SplashComponent } from './screens/splash/splash.component';
 import { ProjectsComponent } from './screens/projects/projects.component';
+import { AboutComponent } from './screens/about/about.component';
+import { ContactComponent } from './screens/contact/contact.component';
 
 const routes: Routes = [
   {
@@ -12,6 +14,14 @@ const routes: Routes = [
   {
     path: "projects",
     component: ProjectsComponent
+  },
+  {
+    path: "about",
+    component: AboutComponent
+  },
+  {
+    path: "contact",
+    component: ContactComponent
   },
 ];
 

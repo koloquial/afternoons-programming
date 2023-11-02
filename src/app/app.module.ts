@@ -12,12 +12,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { ProjectsComponent } from './screens/projects/projects.component';
+import { AboutComponent } from './screens/about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SplashComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -13,13 +13,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { ProjectsComponent } from './screens/projects/projects.component';
 import { AboutComponent } from './screens/about/about.component';
+import { ContactComponent } from './screens/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SplashComponent,
     ProjectsComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

@@ -33,11 +33,4 @@ export class SplashComponent {
 
     return greeting;
   }
-
-  open(link: string){
-    document.getElementById("title-container")!.style.marginTop = "1%";
-    document.getElementById("title-container")!.style.textAlign = "left";
-    document.getElementById("navigation")!.style.textAlign = "left";
-    document.getElementById("title-container")!.innerHTML = `<h1 class="title-small">Afternoons Programming</h1>`
-  }
 }

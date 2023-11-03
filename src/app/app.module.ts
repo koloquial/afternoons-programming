@@ -14,6 +14,8 @@ import { MatListModule } from '@angular/material/list';
 import { ProjectsComponent } from './screens/projects/projects.component';
 import { AboutComponent } from './screens/about/about.component';
 import { ContactComponent } from './screens/contact/contact.component';
+import { HeaderComponent } from './components/header/header.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ContactComponent } from './screens/contact/contact.component';
     SplashComponent,
     ProjectsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    HeaderComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,

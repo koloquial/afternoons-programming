@@ -1,16 +1,16 @@
 <div class="carousel">
-    <ng-container *ngFor="let slide of slides">
-        <img mat-card-image
-            src="{{ slide }}"
-            class="thumbnail"
+    <ng-container *ngFor="let slide of slides; let i = index">
+        <img
+          *ngIf="i === currentSlide"
+          src="{{ slide[i] }}"
+          class="slide"
         />
-    </ng-container>
+      </ng-container>
     
-      
-    <button class="control prev">
+      <button class="control prev" (click)="onPreviousClick()">
         <span class="arrow left"></span>
-    </button>
-    <button class="control next">
+      </button>
+      <button class="control next" (click)="onNextClick()">
         <span class="arrow right"></span>
-    </button>
+      </button>
 </div>

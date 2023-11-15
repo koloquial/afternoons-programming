@@ -20,9 +20,24 @@ p{
     font-weight: 800;
     line-height: 2;
     font-size: large;
-    // color: white;
+}
+
+h1{
+    color: black;
+    text-shadow: 0 2px 2px var(--shade-5);
+    font-size: 50px !important;
+}
+
+h2{
+    color: black;
+    text-shadow: 0 2px 2px var(--shade-5);
+    font-size: 30px !important;
 }
 
 #container{
     padding: 5%;
+}
+
+.mdc-button{
+    margin-right: 10px;
 }

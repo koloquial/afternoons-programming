@@ -1,0 +1,18 @@
+.card {
+    display: inline-block;
+    max-width: 400px;
+    margin: 10px;
+}
+
+.icon-image{
+    max-width: 50px;
+}
+
+.mat-mdc-card-title{
+    font-weight: bold;
+}
+
+.mat-mdc-card-subtitle{
+    font-weight: 800;
+    font-style: italic;
+}

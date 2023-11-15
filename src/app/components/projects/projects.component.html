@@ -1,0 +1,15 @@
+<table>
+    <tr *ngFor="let item of projects">
+        <td>
+            <app-card 
+                [name]="item.name"
+                [category]="item.category"
+                [description]="item.description"
+                [iconSource]="item.iconSource"
+                [screenshots]="item.screenshots"
+                [deployment]="item.deployment"
+            ></app-card>
+        </td>
+    </tr>
+</table>
+

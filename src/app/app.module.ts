@@ -20,6 +20,7 @@ import { CardComponent } from './components/card/card.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ContactComponent } from './components/contact/contact.component';
     ProjectsComponent,
     CarouselComponent,
     ContactComponent,
+    ResumeComponent,
   ],
   imports: [
     BrowserModule,

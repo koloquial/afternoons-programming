@@ -41,3 +41,17 @@ h2{
 .mdc-button{
     margin-right: 10px;
 }
+
+body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--shade-4);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--shade-6); 
+    border-radius: 20px;
+
+  }

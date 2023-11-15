@@ -1,11 +1,11 @@
 <div class="carousel">
     <ng-container *ngFor="let item of slides; let i = index">
         <img
-        *ngIf="i === currentSlide"
-        [src]="item"
-        class="slide"
-        @carouselAnimation
-      />
+            *ngIf="i === currentSlide"
+            [src]="item"
+            class="slide"
+            @carouselAnimation
+        />
     </ng-container>
     
     <button class="control prev" (click)="onPreviousClick()">

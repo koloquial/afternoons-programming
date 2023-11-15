@@ -22,7 +22,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ResumeComponent } from './components/resume/resume.component';
-import { DovetailComponent } from './components/dovetail/dovetail.component';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,7 @@ import { DovetailComponent } from './components/dovetail/dovetail.component';
     CarouselComponent,
     ContactComponent,
     ResumeComponent,
-    DovetailComponent,
+    DialogComponent,
   ],
   imports: [
     BrowserModule,

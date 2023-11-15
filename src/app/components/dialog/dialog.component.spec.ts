@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DovetailComponent } from './dovetail.component';
+import { DialogComponent } from './dialog.component';
 
-describe('DovetailComponent', () => {
-  let component: DovetailComponent;
-  let fixture: ComponentFixture<DovetailComponent>;
+describe('DialogComponent', () => {
+  let component: DialogComponent;
+  let fixture: ComponentFixture<DialogComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [DovetailComponent]
+      declarations: [DialogComponent]
     });
-    fixture = TestBed.createComponent(DovetailComponent);
+    fixture = TestBed.createComponent(DialogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

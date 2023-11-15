@@ -7,7 +7,9 @@
         <mat-card-subtitle>{{ category }}</mat-card-subtitle>
     </mat-card-header>
 
-    <app-carousel [slides]="screenshots"></app-carousel>
+    <div class="carousel-container">
+        <app-carousel [slides]="screenshots"></app-carousel>
+    </div>
     
     <mat-card-content>
         <p>

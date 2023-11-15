@@ -7,111 +7,21 @@
     --shade-4: #FF6F91;
     --shade-5: #D65DB1;
     --shade-6: #845EC2;
-    --white: #FFFFFF;
 }
 
 body { 
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif; 
-    background: linear-gradient(120deg, var(--shade-2), var(--shade-5));
+    background: linear-gradient(300deg, var(--shade-2), var(--shade-4));
     background-attachment: fixed;
+}
+
+p{
+    font-size: x-large;
+    font-weight: 400;
+    color: white;
+}
+
+#container{
     padding: 5%;
-}
-
-.title-container{
-    display: block;
-    text-align: center;
-    margin-top: 10%;
-}
-
-.navigation{
-    display: block;
-    text-align: center;
-}
-
-.title{
-    color: white;
-    text-shadow: 0 2px 2px var(--shade-6);
-    font-size: 6vw !important;
-}
-
-.icon{
-    color: white;
-    text-shadow: 0 2px 2px var(--shade-5);
-}
-
-.icon-label{
-    font-size: 20px;
-    color: white;
-    text-shadow: 0 2px 2px var(--shade-5);
-}
-
-.inline-block{
-    display: inline-block;
-}
-
-.slide-right {
-    animation-duration: 2s;
-    animation-name: slideright;
-}
-
-.slide-right2 {
-    animation-duration: 3s;
-    animation-name: slideright;
-}
-
-.slide-down {
-    opacity: 0;
-    animation-duration: 3s;
-    animation-name: slidedown;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-}
-
-.slide-down2 {
-    opacity: 0;
-    animation-duration: 3s;
-    animation-name: slidedown;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-}
-
-.slide-down3 {
-    opacity: 0;
-    animation-duration: 3s;
-    animation-name: slidedown;
-    animation-delay: 2.6s;
-    animation-fill-mode: forwards;
-}
-
-.slide-down4 {
-    opacity: 0;
-    animation-duration: 3s;
-    animation-name: slidedown;
-    animation-delay: 2.8s;
-    animation-fill-mode: forwards;
-}
-  
-@keyframes slideright {
-    from {
-        transform: translate(-120px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes slidedown {
-    from {
-        transform: translate(0px, -50px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translate(0px);
-        opacity: 1;
-    }
 }

@@ -3,6 +3,9 @@
     max-width: 400px;
     margin: 10px;
     vertical-align: top;
+    text-overflow: ellipsis;
+    height: 500px;
+    width: 500px;
 }
 
 .icon-image{
@@ -10,11 +13,10 @@
 }
 
 .mat-mdc-card-title{
-    font-weight: bold;
+    
 }
 
 .mat-mdc-card-subtitle{
-    font-weight: 800;
     font-style: italic;
 }
 

@@ -1,8 +1,6 @@
 <h3 mat-dialog-title>{{ this.data.name }}</h3>
 <div mat-dialog-content>
-    <p>
-        This dialog showcases the title, close, content and actions elements.
-    </p>
+  <p [innerHtml]="this.data.content | printArray"></p>
 </div>
 <div mat-dialog-actions>
   <button mat-button mat-dialog-close>Close</button>

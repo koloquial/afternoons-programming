@@ -24,6 +24,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 
+//pipes
+import { PrintArrayPipe } from './pipes/print-array.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +38,7 @@ import { DialogComponent } from './components/dialog/dialog.component';
     ContactComponent,
     ResumeComponent,
     DialogComponent,
+    PrintArrayPipe,
   ],
   imports: [
     BrowserModule,

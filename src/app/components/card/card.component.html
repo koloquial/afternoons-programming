@@ -17,8 +17,11 @@
         </p>
     </mat-card-content>
 
-    <mat-card-actions>
-        <button mat-button (click)="openDialog()">More Info</button>
-        <button mat-button (click)="openLink(deployment)">Launch</button>
-    </mat-card-actions>
+    <div style="display: inline-block; position: absolute; bottom: 0px;">
+        <mat-card-actions>
+            <button mat-button (click)="openDialog()">More Info</button>
+            <button mat-button (click)="openLink(deployment)">Launch</button>
+        </mat-card-actions>
+    </div>
+
   </mat-card>

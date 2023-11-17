@@ -9,23 +9,19 @@ import { DialogComponent } from '../dialog/dialog.component';
 })
 export class CardComponent {
 
-  @Input()
-  name: string = '';
+  @Input() name: string = '';
 
-  @Input()
-  category: string = '';
+  @Input() category: string = '';
 
-  @Input()
-  description: string = '';
+  @Input() description: string = '';
 
-  @Input()
-  iconSource: string = '';
+  @Input() iconSource: string = '';
 
-  @Input()
-  screenshots: string[] = [''];
+  @Input() screenshots: string[] = [''];
 
-  @Input()
-  deployment: string = '';
+  @Input() deployment: string = '';
+
+  @Input() content: string[] = [''];
 
   openLink(source: string){
     window.open(source, "_blank")
@@ -37,6 +33,7 @@ export class CardComponent {
     this.dialog.open(DialogComponent, {
       data: {
         name: this.name,
+        content: this.content
       }
     });
   }

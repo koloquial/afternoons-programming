@@ -59,7 +59,7 @@ export class ProjectsComponent {
       status: 'Alpha'
     },
     {
-      name: 'Living Fabric',
+      name: 'Webcraft Tools',
       category: 'Website',
       technology: ['React'],
       iconSource: '/assets/icon-react.png',
@@ -99,6 +99,18 @@ export class ProjectsComponent {
       ],
       technologyList: ['Literature: Chat GPT 3.5', 'Images: Stable Diffusion 1.5', 'Framework: Angular 16.2.4', 'Deployment: Vercel'],
       status: 'v. 1'
+    },
+    {
+      name: 'Board Game Boutique',
+      category: 'Website',
+      technology: ['React'],
+      iconSource: '/assets/icon-react.png',
+      screenshots: ['/assets/screenshot-not-available.png'],
+      description: 'A varety of board games.',
+      deployment: 'https://dovetail-game.vercel.app/',
+      github: 'https://github.com/koloquial/dovetail',
+      dates: ['Sep 2023', 'Present'],
+      status: 'Alpha'
     },
   ]
 }

@@ -15,7 +15,6 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 
 //components
-import { HeaderComponent } from './components/header/header.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { CardComponent } from './components/card/card.component';
 import { ProjectsComponent } from './components/projects/projects.component';
@@ -30,7 +29,6 @@ import { PrintArrayPipe } from './pipes/print-array.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     NavigationComponent,
     CardComponent,
     ProjectsComponent,

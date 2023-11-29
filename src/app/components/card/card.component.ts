@@ -10,18 +10,13 @@ import { DialogComponent } from '../dialog/dialog.component';
 export class CardComponent {
 
   @Input() name: string = '';
-
   @Input() category: string = '';
-
   @Input() description: string = '';
-
   @Input() iconSource: string = '';
-
   @Input() screenshots: string[] = [''];
-
   @Input() deployment: string = '';
-
   @Input() content: string[] = [''];
+  @Input() status: string = '';
 
   openLink(source: string){
     window.open(source, "_blank")

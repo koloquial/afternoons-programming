@@ -7,9 +7,13 @@
         <mat-card-subtitle>{{ category }}</mat-card-subtitle>
     </mat-card-header>
 
-    <div class="carousel-container">
+    <div *ngIf="screenshots.length > 1" class="carousel-container">
         <app-carousel [slides]="screenshots"></app-carousel>
     </div>
+
+    <div *ngIf="screenshots.length === 1" class="carousel-container">
+        <img src="{{ screenshots[0] }}" class="screenshot" />
+    </div> 
     
     <mat-card-content>
         <p>

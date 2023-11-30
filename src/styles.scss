@@ -17,7 +17,6 @@ body {
     repeating-radial-gradient(rgb(250, 250, 250) 0, rgb(250, 250, 250) 4px, transparent 5px, transparent 20px, rgb(250, 250, 250) 21px, rgb(250, 250, 250) 25px, transparent 26px, transparent 50px);
     background-size: 30px 30px, 90px 90px;
     background-position: 0 0;
-    box-shadow: inset 0 0 5px black;
 }
 
 p{
@@ -27,7 +26,7 @@ p{
 }
 
 h1, h2, h3{
-    font-family: 'Permanent Marker', cursive !important;
+    font-family: 'Roboto', sans-serif;
     cursor: default;
 }
 
@@ -36,7 +35,7 @@ h1, h2, h3{
 }
 
 #container{
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
     padding-top: 1%;
     padding-bottom: 12%;
@@ -48,5 +47,4 @@ h1, h2, h3{
 
 .mdc-button{
     margin-right: 10px;
-    font-family: 'Permanent Marker', cursive !important;
 }

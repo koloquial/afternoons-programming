@@ -101,7 +101,7 @@ export class ProjectsComponent {
       status: 'v. 1'
     },
     {
-      name: 'Board Game Boutique',
+      name: 'Parlor games',
       category: 'Website',
       technology: ['React'],
       iconSource: '/assets/icon-react.png',

@@ -4,12 +4,12 @@
     margin: 5px;
     vertical-align: top;
     text-overflow: ellipsis;
-    height: 275px;
+    height: 235px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px, inset 0 0 1px black;
 }
 
 .icon-image{
-    max-width: 30px;
+    max-width: 25px;
 }
 
 .carousel-container {
@@ -22,4 +22,16 @@
     width: 100%;
     height: 150px;
     margin-top: -10px;
+}
+
+.mat-mdc-card-title {
+  font-size: medium !important;
+  margin: 0 !important;
+}
+
+.mat-mdc-card-header {
+  padding: 5px !important;
+  margin-bottom: 0;
+  line-height: normal !important;
+  height: 35px;
 }

@@ -20,11 +20,11 @@ import { CardComponent } from './components/card/card.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { ResumeComponent } from './components/resume/resume.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 
 //pipes
 import { PrintArrayPipe } from './pipes/print-array.pipe';
+import { CvComponent } from './components/cv/cv.component';
 
 @NgModule({
   declarations: [
@@ -34,9 +34,9 @@ import { PrintArrayPipe } from './pipes/print-array.pipe';
     ProjectsComponent,
     CarouselComponent,
     ContactComponent,
-    ResumeComponent,
     DialogComponent,
     PrintArrayPipe,
+    CvComponent,
   ],
   imports: [
     BrowserModule,

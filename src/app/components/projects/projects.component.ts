@@ -23,7 +23,7 @@ export class ProjectsComponent {
       status: 'Alpha'
     },
     {
-      name: 'Parlor games',
+      name: 'Parlor Games',
       category: 'Website',
       technology: ['React'],
       iconSource: '/assets/icon-react.png',

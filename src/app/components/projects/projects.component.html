@@ -1,5 +1,12 @@
-<!-- <h2>{{ title }}</h2> -->
+<div id="page-title-container">
+  <h2>{{ title }}</h2>
+  <ng-container *ngFor="let item of projects">
+    <app-card
+      [iconSource]="item.iconSource"
+      [name]="item.name"
+      [screenshots]="item.screenshots"
+    ></app-card>
+  </ng-container>
+</div>
 
-<ng-container *ngFor="let item of projects">
 
-</ng-container>

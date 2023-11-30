@@ -1,12 +1,8 @@
-.page-container{
-  background-color: rgba(255, 255, 255, .5);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px, inset 0 0 1px black;
-  width: auto;
-}
-
-.page-title{
-  width: 100%;
+#page-title-container{
+  display: block;
+  position: relative;
   background-color: white;
-  padding-left: 10px;
-  padding-top: 5px;
+  width: 100%;
+  padding-left: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px, inset 0 0 1px black;
 }

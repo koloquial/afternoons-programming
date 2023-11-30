@@ -11,24 +11,36 @@ export class ProjectsComponent {
 
   projects = [
     {
-      name: 'Dovetail',
-      category: 'Game',
-      technology: ['HTML', 'CSS', 'Javascript'],
-      iconSource: '/assets/icon-javascript.png',
-      screenshots: ['/assets/dovetail-1.png', '/assets/dovetail-2.png', '/assets/dovetail-3.png', '/assets/dovetail-4.png', '/assets/dovetail-5.png',],
-      description: 'A fantasy sandbox adventure.',
-      deployment: 'https://dovetail-game.vercel.app/',
-      github: 'https://github.com/koloquial/dovetail',
-      dates: ['Sep 2023', 'Present'],
-      status: 'Alpha'
-    },
-    {
       name: 'Wallet HOA',
       category: 'Web Application',
       technology: ['Angular'],
       iconSource: '/assets/icon-angular.png',
       screenshots: ['/assets/screenshot-not-available.png'],
       description: 'Wallet HOA is a solution to track income and expenses.',
+      deployment: 'https://dovetail-game.vercel.app/',
+      github: 'https://github.com/koloquial/dovetail',
+      dates: ['Sep 2023', 'Present'],
+      status: 'Alpha'
+    },
+    {
+      name: 'Parlor games',
+      category: 'Website',
+      technology: ['React'],
+      iconSource: '/assets/icon-react.png',
+      screenshots: ['/assets/screenshot-not-available.png'],
+      description: 'A varety of board games.',
+      deployment: 'https://dovetail-game.vercel.app/',
+      github: 'https://github.com/koloquial/dovetail',
+      dates: ['Sep 2023', 'Present'],
+      status: 'Alpha'
+    },
+    {
+      name: 'Dovetail',
+      category: 'Game',
+      technology: ['HTML', 'CSS', 'Javascript'],
+      iconSource: '/assets/icon-javascript.png',
+      screenshots: ['/assets/dovetail-1.png', '/assets/dovetail-2.png', '/assets/dovetail-3.png', '/assets/dovetail-4.png', '/assets/dovetail-5.png',],
+      description: 'A fantasy sandbox adventure.',
       deployment: 'https://dovetail-game.vercel.app/',
       github: 'https://github.com/koloquial/dovetail',
       dates: ['Sep 2023', 'Present'],
@@ -100,17 +112,6 @@ export class ProjectsComponent {
       technologyList: ['Literature: Chat GPT 3.5', 'Images: Stable Diffusion 1.5', 'Framework: Angular 16.2.4', 'Deployment: Vercel'],
       status: 'v. 1'
     },
-    {
-      name: 'Parlor games',
-      category: 'Website',
-      technology: ['React'],
-      iconSource: '/assets/icon-react.png',
-      screenshots: ['/assets/screenshot-not-available.png'],
-      description: 'A varety of board games.',
-      deployment: 'https://dovetail-game.vercel.app/',
-      github: 'https://github.com/koloquial/dovetail',
-      dates: ['Sep 2023', 'Present'],
-      status: 'Alpha'
-    },
+
   ]
 }
